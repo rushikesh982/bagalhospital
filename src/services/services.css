@@ -1,0 +1,15 @@
+/* AboutBanner */
+
+.servicesbanner .title
+{
+    font-size: 2vmax;
+}
+.servicesbanner
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    background-image: url('../../public/images/aboutBanner.webp');
+}

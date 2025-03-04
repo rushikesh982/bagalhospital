@@ -1,0 +1,6 @@
+/* form */
+
+.formbox input,.formText
+{
+    border:2px solid #008aff;
+}

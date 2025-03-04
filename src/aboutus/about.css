@@ -1,0 +1,27 @@
+/* AboutBanner */
+
+.banner .title
+{
+    font-size: 2vmax;
+}
+.banner
+{
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    background-image: url('../../public/images/aboutBanner.webp');
+}
+/* about services */
+.imgBox
+{
+    height: 250px;
+    width: 400px;
+}
+.imgBox img
+{
+    height: 100%;
+    width: 100%;
+}

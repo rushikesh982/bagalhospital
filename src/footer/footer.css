@@ -1,0 +1,46 @@
+.footerbox ul li
+{
+    list-style-type: none;
+}
+.ourServies ul li
+{
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(16, 160, 238);
+}
+.ourServies ul li i
+{
+    color: rgb(16, 160, 238);
+    font-weight: bolder;
+    font-size: 17px;
+}
+.footerbox h5
+{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 130px;
+    border-bottom: 3px solid rgb(16, 160, 238);
+}
+.contactInfo i
+{
+    color: rgb(16, 160, 238);
+}
+.contactInfo ul li
+{
+    margin-top: 10px;
+}
+.tags ul li
+{
+    text-align: center;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+    border: 0.5px solid rgb(193, 191, 191);
+}
+.tags ul li:hover
+{
+    background-color: rgb(16, 160, 238);
+    border: none;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.banner .title
+{
+    font-size: 2vmax;
+}
+.depbanner
+{
+    height: 300px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    background-image: url('../../public/images/departmentbanner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-size: 1.5vw;
+}
+

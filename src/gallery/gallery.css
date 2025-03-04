@@ -1,0 +1,24 @@
+.banner .title
+{
+    font-size: 2vmax;
+}
+.banner
+{
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    /* background-image: url('../../public/images/aboutBanner.webp'); */
+    /* background-image: url("../assets/images/aboutBanner.webp"); */
+    /* background-image: url("/images/aboutBanner.webp"); */
+
+
+}
+.gallerybox .card
+{
+    height: 300px;
+    /* max-width: 400px; */
+    
+}

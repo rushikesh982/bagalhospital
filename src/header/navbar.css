@@ -1,0 +1,149 @@
+.navouter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgb(40, 79, 196);
+  background-color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.navLeft .logo {
+  height: 50px;
+}
+
+.navright ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navright ul li {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navright ul li a {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-weight: bold;
+}
+
+.navright ul li a:hover {
+  color: black;
+}
+
+/* Button Style */
+.navright button {
+  background-color: #ec0c5b;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navright button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  font-size: 29px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Mobile Navigation */
+.mob-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mob-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mob-nav ul li {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.mob-nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Open class to show menu */
+.mob-nav.open {
+  display: flex;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navright ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+/* Hamburger Menu */
+.hamburger {
+  font-size: 29px;
+  cursor: pointer;
+  display: none;
+  position: relative;
+  z-index: 200;
+}
+
+/* Mobile Navigation */
+.mob-nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Show mobile menu when open */
+.mob-nav.open {
+  display: flex;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navright ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+
