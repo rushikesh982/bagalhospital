@@ -38,11 +38,9 @@ export default function HomeDoctors() {
                   </div>
                 </div>
               </div>
-              ;
             </>
           );
         })}
-        {/* <div className="doctor2"></div>   */}
       </div>
     </>
   );
